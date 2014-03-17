@@ -1,0 +1,16 @@
+.site-topbar { background-color: #225559; color: white; }
+.navbar { background-color: #842a2a; }
+.site-navbar .navbar-nav a { color: white;}
+.site-navbar .navbar-nav a:hover { color: black;}
+.site-navbar .navbar-nav .active a { background-color: #225559; }
+.block-text { color: #842a2a; font-size: 1.5em; }
+.gallery { background-color: #225559; }
+.gallery a { color: white;}
+.section.section-hilite { background-color: #fff2d8; }
+.section.section-hilite .section-title span { background: none; }
+.section .section-title span { background: none;}
+
+.section .section-title:after { display: none;}
+.site-navbar .navbar-brand a { color: white; }
+#features h5 { color: #ef7621;}
+.section.section-features .icon-wrap { width: 100%; height: auto; } 
