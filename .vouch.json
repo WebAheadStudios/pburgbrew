@@ -1,0 +1,8 @@
+{
+    "dir": ".",
+    "default": "index.html",
+    "run": [],
+    "notify": [
+        "luiz@webaheadstudios.com"
+    ]
+}
