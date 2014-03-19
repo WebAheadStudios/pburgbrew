@@ -14,3 +14,13 @@
 .site-navbar .navbar-brand a { color: white; }
 #features h5 { color: #ef7621;}
 .section.section-features .icon-wrap { width: 100%; height: auto; } 
+
+.section.section-center { text-align: left; }
+.media { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;}
+
+
+@media all and (max-width: 480px) and (min-width: 320px) {
+
+.pull-left img { display: none;}
+
+}
