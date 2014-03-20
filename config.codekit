@@ -1141,6 +1141,16 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/images\/beer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23970,
+		"inputAbbreviatedPath": "\/images\/beer.jpg",
+		"outputAbbreviatedPath": "\/images\/beer.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1178,6 +1188,46 @@
 		"initialSize": 129285,
 		"inputAbbreviatedPath": "\/images\/bg-3.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271457,
+		"inputAbbreviatedPath": "\/images\/gallery_1.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198464,
+		"inputAbbreviatedPath": "\/images\/gallery_2.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160789,
+		"inputAbbreviatedPath": "\/images\/gallery_3.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249795,
+		"inputAbbreviatedPath": "\/images\/gallery_4.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_4.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
