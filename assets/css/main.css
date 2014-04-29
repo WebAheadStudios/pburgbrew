@@ -17,8 +17,8 @@
 
 .section.section-center { text-align: left; }
 .media { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;}
-
-
+h3.intro { text-transform: uppercase; margin-bottom: 30px; color: white;}
+#age .btn { margin: 5px; }
 @media all and (max-width: 480px) and (min-width: 320px) {
 
 .pull-left img { display: none;}
