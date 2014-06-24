@@ -1,0 +1,4 @@
+Sitemap: http://www.philipsburgbrewingcompany.com/sitemap.xml
+
+User-agent: *
+Disallow: landing.html
