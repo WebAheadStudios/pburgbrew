@@ -15,12 +15,13 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-52769509-1', 'auto');
+ga('require', 'displayfeatures');
 ga('send', 'pageview');
 
 $(document).ready(function(){
   "use strict";
   // Add "loaded" class when a section has been loaded
-  $(window).scroll(function() { 
+  $(window).scroll(function() {
     var scrollTop = $(window).scrollTop();
     $(".section").each(function() {
       var elementTop = $(this).offset().top - $('#header').outerHeight();
@@ -87,4 +88,4 @@ $(document).ready(function(){
     return false;
   });
 
-}); 
+});
