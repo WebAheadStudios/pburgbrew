@@ -37,6 +37,7 @@ $(document).ready(function(){
     filter: ':not(.external)',
     speed: 750,
     currentClass: 'active',
+    updateHash: true,
 
     beforeStart: function() {
     },
