@@ -17,7 +17,7 @@
 
 .section.section-center { text-align: left; }
 .media { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;}
-h3.intro { text-transform: uppercase; margin-bottom: 30px; color: white;}
+.intro { text-transform: uppercase; margin-bottom: 30px; color: white;}
 #age-verify .modal-body {
     background-color: #842a2a;
 }
@@ -28,6 +28,10 @@ h3.intro { text-transform: uppercase; margin-bottom: 30px; color: white;}
 .section.section-our-clients a:hover,
 .section.section-our-clients a:active {
     box-shadow: none;
+}
+
+h2 .small:hover {
+    text-decoration: none;
 }
 @media all and (max-width: 480px) and (min-width: 320px) {
 
