@@ -104,6 +104,8 @@ $(document).ready(function(){
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
+        
+        ga('send', 'event', 'Link', 'Back To Top');
         return false;
       }
     }
