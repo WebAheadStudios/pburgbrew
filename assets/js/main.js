@@ -1,3 +1,5 @@
+var pburg = pburg || {};
+
 // Facebook SDK
 (function(d, s, id) {
   "use strict";
@@ -46,20 +48,35 @@ function showAgeVerify (element) {
     });
 }
 
+/**
+ * Dynamically update the document.title
+ * 
+ * @param {object} element
+ */
 function updateTitle (element) {
-	var hash = element.find(".section-title");
+	var hash = element.find('.section-title');
 	var title = "";
-	
-	if (hash.length > 1) {
-		title = "Small Town, Big Beer";
+
+	if (hash.length === 1) {
+		title = hash.text() + ' - Philipsburg Brewing Company';
 	} else {
-		hash.text();
+		title = pburg.title;
 	}
-	document.title = title + " - Philipsburg Brewing Company";
+	
+	document.title = title;
+	
+	// New page
+	ga('set', 'title', hash);
+	ga('set', 'location', location.href);
+	ga('send', 'pageview');
 }
 
 $(document).ready(function(){
   "use strict";
+  
+  pburg.title = document.title;
+  var $container = $('.portfolio-isotope');
+  
   // Trigger the Age Verify Modal
   executeOnce(showAgeVerify, null, $('#age-verify'), 'age-verify', true);
 
@@ -104,6 +121,7 @@ $(document).ready(function(){
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
+        document.title = pburg.title;
         
         ga('send', 'event', 'Link', 'Back To Top');
         return false;
@@ -112,7 +130,7 @@ $(document).ready(function(){
   });
 
   $('.nav a').on('click', function(){
-    if($('.navbar-toggle').css('display') !='none'){
+    if($('.navbar-toggle').css('display') !== 'none'){
       $(".navbar-toggle").click();
     }
   });
@@ -129,9 +147,6 @@ $(document).ready(function(){
       ga('send', 'event', 'click', 'Social Links', $link.href);
       return true;
   });
-
-
-  var $container = $('.portfolio-isotope');
 
   $container.isotope({
     itemSelector : '.portfolio-item',
