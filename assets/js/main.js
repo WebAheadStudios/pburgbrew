@@ -116,6 +116,19 @@ $(document).ready(function(){
       $(".navbar-toggle").click();
     }
   });
+  
+  $('a.external').on('click', function (){
+      var $link = $(this);
+      ga('send', 'event', 'click', 'Store');
+      return true;
+  });
+  
+  $('.social-links a').on('click', function(){
+      var $link = $(this);
+      // track social links
+      ga('send', 'event', 'click', 'Social Links', $link.href);
+      return true;
+  });
 
 
   var $container = $('.portfolio-isotope');
