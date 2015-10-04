@@ -46,6 +46,18 @@ function showAgeVerify (element) {
     });
 }
 
+function updateTitle (element) {
+	var hash = element.find(".section-title");
+	var title = "";
+	
+	if (hash.length > 1) {
+		title = "Small Town, Big Beer";
+	} else {
+		hash.text();
+	}
+	document.title = title + " - Philipsburg Brewing Company";
+}
+
 $(document).ready(function(){
   "use strict";
   // Trigger the Age Verify Modal
@@ -72,8 +84,7 @@ $(document).ready(function(){
 
     beforeStart: function() {
     },
-    onComplete: function() {
-    }
+    onComplete: updateTitle
   });
 
   // Sticky Navbar Affix
