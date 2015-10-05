@@ -123,7 +123,7 @@ $(document).ready(function(){
         }, 1000);
         document.title = pburg.title;
         
-        ga('send', 'event', 'Link', 'Back To Top');
+        ga('send', 'event', 'button', 'click', 'Back To Top');
         return false;
       }
     }
@@ -137,14 +137,14 @@ $(document).ready(function(){
   
   $('a.external').on('click', function (){
       var $link = $(this);
-      ga('send', 'event', 'click', 'Store');
+      ga('send', 'event', 'link', 'click', 'Store', 1);
       return true;
   });
   
   $('.social-links a').on('click', function(){
       var $link = $(this);
       // track social links
-      ga('send', 'event', 'click', 'Social Links', $link.href);
+      ga('send', 'event', 'link', 'click', 'Social', $link.text());
       return true;
   });
 
@@ -160,5 +160,5 @@ $(document).ready(function(){
     $container.isotope({ filter: selector });
     return false;
   });
-
+g
 });
