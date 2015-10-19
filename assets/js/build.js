@@ -1,4 +1,4 @@
-/*! Philipsburg Brewing Co. - v1.3.0 - 2015-10-18 *//*!
+/*! Philipsburg Brewing Co. - v1.4.0 - 2015-10-18 *//*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
