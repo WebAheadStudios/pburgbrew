@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        banner: '/*! Philipsburg Brewing Co. - v<%= package.version %>',
+        banner: '/*! Philipsburg Brewing Co. - v<%= package.version %> */',
     },
     production: {
         files: {
