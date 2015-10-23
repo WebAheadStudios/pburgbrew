@@ -1,7 +1,6 @@
 module.exports = {
     options: {
-        banner: '/*! Philipsburg Brewing Co. - v<%= package.version %> - ' +
-        '<%= grunt.template.today("yyyy-mm-dd") %> */',
+        banner: '/*! Philipsburg Brewing Co. - v<%= package.version %> - */\n',
     },
     production: {
         src: [
